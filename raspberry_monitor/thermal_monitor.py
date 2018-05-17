@@ -8,4 +8,3 @@ cpu_temp = lambda: float(__temp_int())/1000.0
 
 if __name__ == '__main__':
     print(u"CPU Temperature: {} °C".format(cpu_temp()) )
-
